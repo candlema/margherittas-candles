@@ -1,9 +1,17 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  cacheComponents: true,
-  partialPrefetching: true,
+  images: {
+    remotePatterns: [
+      // Product photos uploaded from the admin dashboard live on Vercel Blob
+      { protocol: "https", hostname: "*.public.blob.vercel-storage.com" },
+    ],
+  },
+  experimental: {
+    serverActions: {
+      bodySizeLimit: "10mb", // room for phone-camera product photos
+    },
+  },
   turbopack: {
     rules: {
       "*.css": {
