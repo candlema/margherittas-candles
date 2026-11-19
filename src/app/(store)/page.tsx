@@ -7,7 +7,7 @@ import ProductCard from "@/components/ProductCard";
 export const dynamic = "force-dynamic";
 
 const trail = [
-  "Hand-Poured",
+  "Hand-crafted",
   "Candle Cocktails",
   "Dessert Candles",
   "Small Batch",
@@ -23,7 +23,7 @@ const values = [
   },
   {
     icon: Hand,
-    title: "Hand-Poured in Small Batches",
+    title: "Hand-crafted in Small Batches",
     text: "Every single candle is blended, poured and finished by hand in our shop. No two are exactly alike.",
   },
   {
@@ -43,7 +43,7 @@ export default async function Home() {
         <div className="flex flex-col justify-center px-5 pb-16 pt-32 md:px-12 md:pt-24 lg:px-16">
           <p className="flex items-center gap-2 text-xs font-medium uppercase tracking-[0.25em] text-amber-deep">
             <Sparkles className="h-4 w-4" aria-hidden />
-            Hand-poured candle cocktails &amp; desserts
+            Hand-crafted candle cocktails &amp; desserts
           </p>
           <h1 className="mt-6">
             <span className="block font-script text-6xl leading-tight text-navy md:text-8xl">
@@ -55,7 +55,7 @@ export default async function Home() {
           </h1>
           <p className="mt-6 max-w-md text-lg leading-relaxed text-navy/70">
             Candles that look good enough to drink. Dessert and
-            cocktail-inspired creations, hand-poured into real glasses you
+            cocktail-inspired creations, Hand-crafted into real glasses you
             keep forever.
           </p>
           <div className="mt-10 flex flex-wrap items-center gap-5">

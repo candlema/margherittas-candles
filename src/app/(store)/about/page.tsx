@@ -24,7 +24,7 @@ export default function AboutPage() {
         <div className="relative aspect-[4/5] overflow-hidden rounded-2xl md:col-span-2">
           <Image
             src="/images/shop-shelves.jpg"
-            alt="Shelves of hand-poured candles inside Margherita's Enchanted Candles shop"
+            alt="Shelves of Hand-crafted candles inside Margherita's Enchanted Candles shop"
             fill
             priority
             sizes="(max-width: 768px) 100vw, 40vw"

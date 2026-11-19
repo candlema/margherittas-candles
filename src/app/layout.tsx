@@ -26,9 +26,9 @@ export const metadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000"
   ),
-  title: "Margherita's Enchanted Candles — Hand-Poured Candle Cocktails",
+  title: "Margherita's Enchanted Candles — Hand-crafted Candle Cocktails",
   description:
-    "Dessert and cocktail-inspired candles, hand-poured in small batches. Candles that look good enough to drink — visit Margherita's Enchanted Candles.",
+    "Dessert and cocktail-inspired candles, Hand-crafted in small batches. Candles that look good enough to drink — visit Margherita's Enchanted Candles.",
 };
 
 export default function RootLayout({

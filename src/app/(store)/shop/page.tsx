@@ -7,7 +7,7 @@ export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Shop — Margherita's Enchanted Candles",
   description:
-    "Browse the full candle menu — dessert and cocktail candles hand-poured into real glasses you keep forever.",
+    "Browse the full candle menu — dessert and cocktail candles Hand-crafted into real glasses you keep forever.",
 };
 
 export default async function ShopPage() {
@@ -22,7 +22,7 @@ export default async function ShopPage() {
         The candle <em className="italic text-ruby">menu</em>
       </h1>
       <p className="mt-5 max-w-lg text-lg text-navy/70">
-        Dessert and cocktail candles, hand-poured into real glasses.
+        Dessert and cocktail candles, Hand-crafted into real glasses.
         Pick your pour — every one smells as good as it looks.
       </p>
 

@@ -28,7 +28,7 @@ export default function Footer() {
           <div>
             <p className="font-script text-2xl text-amber">Margherita&rsquo;s</p>
             <p className="mt-3 max-w-xs text-sm text-cream/70">
-              Dessert &amp; cocktail-inspired candles, hand-poured in small
+              Dessert &amp; cocktail-inspired candles, Hand-crafted in small
               batches. They look good enough to drink — please don&rsquo;t.
             </p>
           </div>
